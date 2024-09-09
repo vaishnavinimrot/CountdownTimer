@@ -1,0 +1,81 @@
+body {
+  text-align: center;
+  border: #333;
+  margin-top: 10%;
+  background: linear-gradient(100deg, #f9c7d9, #a1c4fd);
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(100deg, #ff9a8b, #ff6a88);
+  padding: 100px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 250px;
+  margin: auto;
+}
+
+.timer-heading {
+  font-size: 1.5rem;
+  color: #333; /* Dark text for better readability */
+  margin-bottom: 10px;
+}
+
+.timer-display {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333; /* Matching text color */
+  background-color: #fff; /* White background for the timer display */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for display */
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.timer-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-button {
+  background-color: #1f7924 ; /* Green */
+  color: white;
+}
+
+.start-button:hover {
+  background-color:  #4CAF50; /* Darker green on hover */
+}
+
+.stop-button {
+  background-color: rgb(136, 23, 145) ;
+  color: white;
+}
+
+.stop-button:hover {
+  background-color:  #9b59b6; /* Darker orange on hover */
+}
+
+.reset-button {
+  background-color: #8d0e0b; /* Red */
+  color: white;
+}
+
+.reset-button:hover {
+  background-color:  #f44336; /* Darker red on hover */
+}
+
